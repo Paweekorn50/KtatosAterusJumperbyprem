@@ -1,0 +1,56 @@
+*{
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Board{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border-bottom: 20px solid red;
+    background-color: orange;
+    border-left: 5px solid black;
+    border-right: 5px solid black ;
+    border-top: 5px solid black ;
+}
+
+#RetryButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+}
+
+#RetryButton:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+#Reload{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+    left: 20px;
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    border-bottom: black solid 2px;
+    margin-bottom: 20px;
+}
